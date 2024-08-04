@@ -1,5 +1,4 @@
-import js from '@eslint/js';
-import prettierPlugin from 'eslint-plugin-prettier';
+const prettierPlugin = require('eslint-plugin-prettier');
 
 const config = [
   {
@@ -21,4 +20,4 @@ const config = [
   },
 ];
 
-export default config;
+module.exports = config;
