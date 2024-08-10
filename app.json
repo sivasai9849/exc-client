@@ -1,6 +1,24 @@
 {
   "expo": {
+    "scheme": "acme",
+    "userInterfaceStyle": "automatic",
+    "orientation": "default",
+    "web": {
+      "output": "static",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://n"
+        }
+      ]
+    ],
     "name": "exc-client",
-    "slug": "exc-client"
+    "slug": "exc-client",
+    "experiments": {
+      "typedRoutes": true
+    }
   }
 }
